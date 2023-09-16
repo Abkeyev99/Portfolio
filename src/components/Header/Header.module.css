@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/*=================  CTA  ========================*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/*=================  HEADER SOCIALS  ========================*/
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    font-size: 2rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary)
+}
+
+/*=================  ME  ========================*/
+.me {
+    height: 30rem;
+    width: 22rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 5rem;
+    border-radius: 3.5rem;
+    overflow: hidden;
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.myPhoto {
+    margin-bottom: 0;
+    border-radius: 50px;
+    height: 25rem;
+    width: 19rem;
+}
+
+/*=================  SCROLL DOWN  ========================*/
+.scroll__down {
+
+    position: absolute;
+    right: -4rem;
+    bottom: 7rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES)=============*/
+@media screen and (max-width: 1024px) {
+  header {
+      height: 68vh;
+  }
+}
+
+/*============= MEDIA QUERIES (SMALL DEVICES)=============*/
+@media screen and (max-width: 600px) {
+  header {
+      height: 100vh;
+  }
+  .header__socials,
+  .scroll__down {
+      display: none;
+  }
+}
