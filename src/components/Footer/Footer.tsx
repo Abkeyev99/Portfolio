@@ -7,7 +7,7 @@ import {FaTelegramPlane} from "react-icons/fa";
 export const Footer = () => {
     return (
         <footer>
-            <a href="#" className={s.footer__logo}>AZIZ</a>
+            <a href="#" className={s.footer__logo}>ABKEYEV.A.W</a>
 
             <ul className={s.permalinks}>
                 <li><a href="#">Home</a></li>
@@ -20,9 +20,9 @@ export const Footer = () => {
             </ul>
 
             <div className={s.footer__socials}>
-                <a href="https://instagram.com"><GrInstagram/></a>
+                <a href="https://instagram.com/abkeyev.a.w?igshid=MzRlODBiNWFlZA=="><GrInstagram/></a>
                 <a href="https://facebook.com"><FaFacebookF/></a>
-                <a href="https://desktop.telegram.org"><FaTelegramPlane/></a>
+                <a href="https://t.me/abkeyev_a_w"><FaTelegramPlane/></a>
             </div>
 
             <div className={s.footer__copyright}>

@@ -29,17 +29,17 @@ export const About = () => {
                         <article className={s.about__card}>
                             <FaAward className={s.about__icon}/>
                             <h5>Experience in IT</h5>
-                            <small>1 year and 4 months of development</small>
+                            <small>1 year and 2 months of development</small>
                         </article>
 
                         <article className={s.about__card}>
                             <RiFolder3Fill className={s.about__icon}/>
                             <h5>Projects</h5>
-                            <small>8 Completed</small>
+                            <small>3 Completed</small>
                         </article>
                     </div>
                     <p>
-                        My name is Azizbek. I'm an outstanding frontend developer with incredible
+                        My name is Arlan. I'm an outstanding frontend developer with incredible
                         learning skills and the ability to solve problems without giving up. My goal
                         as a developer is to apply my technical skills in IT development and
                         troubleshooting to realize the vision and mission of the company.

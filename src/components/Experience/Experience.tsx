@@ -51,21 +51,7 @@ export const Experience = () => {
                         <article className={s.experience__details}>
                             <BsFillPatchCheckFill className={s.experience__details_icon}/>
                             <div>
-                                <h4>Zustand</h4>
-                                <small className='text-light'>Proficient</small>
-                            </div>
-                        </article>
-                        <article className={s.experience__details}>
-                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
-                            <div>
                                 <h4>React-Query</h4>
-                                <small className='text-light'>Proficient</small>
-                            </div>
-                        </article>
-                        <article className={s.experience__details}>
-                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
-                            <div>
-                                <h4>MobX</h4>
                                 <small className='text-light'>Proficient</small>
                             </div>
                         </article>
@@ -81,6 +67,13 @@ export const Experience = () => {
                             <div>
                                 <h4>CSS</h4>
                                 <small className='text-light'>Advanced</small>
+                            </div>
+                        </article>
+                        <article className={s.experience__details}>
+                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
+                            <div>
+                                <h4>Material UI</h4>
+                                <small className='text-light'>Proficient</small>
                             </div>
                         </article>
                     </div>

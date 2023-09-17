@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Portfolio.module.css'
 
-import {PortfolioDataType, PortfolioOtherInfoType, PortfolioType} from "../../store/portfolioSlice";
+import {PortfolioDataType, PortfolioOtherInfoType} from "../../store/portfolioSlice";
 
 type PortfolioPropsType = {
     portfolioData: PortfolioDataType[]

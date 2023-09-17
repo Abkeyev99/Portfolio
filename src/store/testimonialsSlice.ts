@@ -1,5 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-import NurgissaImg from "../assets/Nurgisa.jpg";
+import avatar2 from "../assets/photo_2022-12-20_20-51-24.jpg";
 import AbzalImg from '../assets/Abzal_image.jpg'
 
 export type TestimonialsDataType = {
@@ -18,8 +18,8 @@ const initialState = {
         },
         {
             id: 2,
-            name: 'Nurgisa Rakhymzhan',
-            avatar: NurgissaImg,
+            name: 'Aziz Abdimaulenov',
+            avatar: avatar2,
             review: 'a Frontend Developer working at TOO Mybuh'
         }
     ] as TestimonialsDataType[]

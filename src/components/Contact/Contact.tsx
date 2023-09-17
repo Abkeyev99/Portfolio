@@ -22,20 +22,20 @@ export const Contact = () => {
                     <article className={s.contact__option}>
                         <MdEmail className={s.contact__option_icon}/>
                         <h4>Email</h4>
-                        <h5>azizbek.abdimavlonov@outlook.com</h5>
-                        <a href="mailto:azizbek.abdimavlonov@outlook.com" target='_blank'>Send a message</a>
+                        <h5>arlan.abkeyev@mail.ru</h5>
+                        <a href="mailto:arlan.abkeyev@mail.ru" target='_blank'>Send a message</a>
                     </article>
                     <article className={s.contact__option}>
                         <FaTelegramPlane className={s.contact__option_icon}/>
                         <h4>Telegram</h4>
-                        <h5>+77477864600</h5>
-                        <a href="mailto:azizbek.abdimavlonov@mail.ru" target='_blank'>Send a message</a>
+                        <h5>abkeyev_a_w</h5>
+                        <a href="https://t.me/abkeyev_a_w" target='_blank'>Send a message</a>
                     </article>
                     <article className={s.contact__option}>
                         <IoLogoWhatsapp className={s.contact__option_icon}/>
                         <h4>WhatsApp</h4>
-                        <h5>+77477864600</h5>
-                        <a href="https://api.whatsapp.com/send?phone=+77477864600" target='_blank'>Send a message</a>
+                        <h5>+79919204621</h5>
+                        <a href="https://api.whatsapp.com/send? phone=+79919204621" target='_blank'>Send a message</a>
                     </article>
                 </div>
                 {/*END OF CONTACT OPTIONS*/}
