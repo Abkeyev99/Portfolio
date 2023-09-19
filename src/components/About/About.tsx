@@ -29,7 +29,7 @@ export const About = () => {
                         <article className={s.about__card}>
                             <FaAward className={s.about__icon}/>
                             <h5>Experience in IT</h5>
-                            <small>1 year and 2 months of development</small>
+                            <small>1 year and 3 months of development</small>
                         </article>
 
                         <article className={s.about__card}>
