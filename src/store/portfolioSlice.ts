@@ -1,6 +1,8 @@
 import {createSlice} from "@reduxjs/toolkit";
 import adminQueue_project from "../assets/social-network.jpg";
 import queueFront_project from '../assets/todolist1.png'
+import shop_market_project from '../assets/shop.jpg'
+
 
 
 export interface PortfolioDataType {
@@ -43,6 +45,13 @@ const initialState: PortfolioType = {
             image: adminQueue_project,
             title: 'Social-Network',
             github: 'https://github.com/Abkeyev99/Social-Network',
+            demo: 'https://dribbble.com/shots/20282089-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
+        },
+        {
+            id: 2,
+            image: shop_market_project,
+            title: 'Online Store',
+            github: 'https://github.com/Abkeyev99/eCommerce',
             demo: 'https://dribbble.com/shots/20282089-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
         },
 
