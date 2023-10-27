@@ -37,13 +37,6 @@ export const Experience = () => {
                         <article className={s.experience__details}>
                             <BsFillPatchCheckFill className={s.experience__details_icon}/>
                             <div>
-                                <h4>Next</h4>
-                                <small className='text-light'>Proficient</small>
-                            </div>
-                        </article>
-                        <article className={s.experience__details}>
-                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
-                            <div>
                                 <h4>Redux</h4>
                                 <small className='text-light'>Advanced</small>
                             </div>
@@ -87,27 +80,6 @@ export const Experience = () => {
                             <div>
                                 <h4>Node.JS</h4>
                                 <small className='text-light'>Intermediate</small>
-                            </div>
-                        </article>
-                        <article className={s.experience__details}>
-                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
-                            <div>
-                                <h4>Express.JS</h4>
-                                <small className='text-light'>Intermediate</small>
-                            </div>
-                        </article>
-                        <article className={s.experience__details}>
-                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
-                            <div>
-                                <h4>Nest.JS</h4>
-                                <small className='text-light'>Basic</small>
-                            </div>
-                        </article>
-                        <article className={s.experience__details}>
-                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
-                            <div>
-                                <h4>MongoDB</h4>
-                                <small className='text-light'>Basic</small>
                             </div>
                         </article>
                     </div>
